@@ -45,7 +45,7 @@ span {
     font-size: 22px;
     padding: 5px 30px;
     text-align: center;
-    margin-left: 50%;
+    margin-left: 46%;
     margin-top: 50px;
 }
 #btn:hover{
@@ -81,43 +81,59 @@ span {
     }
     
     #btn {
-        /* background-color: var(--font-color); */
         font-size: 20px;
-        /* padding: 5px 30px; */
-        /* text-align: center; */
         margin-left: 3%;
-        /* margin-top: 50px; */
     }
 }
 
 /* Small Devices (Tablets, 600px to 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
+
+    .first-container {
+        margin: 0 auto;
+        padding: 0 20px;
+    }  
+    .first-one {
+        padding: 80px 0;
+    }
     .first-one h1 {
-        font-size: 60px;
+        font-size: 55px;
+        text-align: start;
     }
-
     .first-one p {
-        font-size: 18px;
-        padding: 0 50px;
+        padding: 0 10px;
+        text-align: start;
+        font-size: 22px;
     }
-
     #btn {
-        font-size: 20px;
-        padding: 8px 25px;
+        font-size: 22px;
+        margin-left: 2%;
     }
 }
-
+ 
 /* Medium Devices (Laptops, 900px to 1200px) */
 @media (min-width: 901px) and (max-width: 1200px) {
+
+    .first-container {
+        margin: 0 auto;
+        padding: 0 40px;
+    }  
+    .first-one {
+        padding: 100px 0; 
+    }
     .first-one h1 {
-        font-size: 70px;
+        font-size: 65px;
+        text-align: start;
     }
-
     .first-one p {
-        font-size: 20px;
+        padding: 0 40px;
+        text-align: start;
+        font-size: 24px;
+        font-weight: 500;
     }
-
+    
     #btn {
-        font-size: 21px;
+        font-size: 24px; 
+        margin-left: 7%; 
     }
 }
