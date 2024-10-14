@@ -197,14 +197,14 @@ span {
 @media (max-width: 600px) {
   
     .second-one {
-        /* width: 100%;
+        width: 100%;
         height: auto;
-        padding: 100px 0; */
+        padding: 100px 0;
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(1, 1fr); /* 3 items in one row */
         gap: 30px; /* Adjust the gap between items */
-        /* justify-items: center; Center content horizontally */
+        justify-items: center;
     }
 }
 
