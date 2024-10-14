@@ -147,15 +147,6 @@ span {
     background-color: black;
 }
 
-/* .second-one {
-    width: 100%;
-    height: auto;
-    padding: 100px 0px;
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
-} */
-
 .second-one {
     width: 100%;
     height: auto;
@@ -203,8 +194,19 @@ span {
     transition: 0.5s all;
 }
 
-
-
+@media (max-width: 600px) {
+  
+    .second-one {
+        /* width: 100%;
+        height: auto;
+        padding: 100px 0; */
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr); /* 3 items in one row */
+        gap: 30px; /* Adjust the gap between items */
+        /* justify-items: center; Center content horizontally */
+    }
+}
 
 
 /*End Second Container*/
