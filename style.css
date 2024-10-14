@@ -1,24 +1,55 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 * {
     font-family: "Raleway", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     /* font-family: "Syne Mono", monospace; */
 }
-
+span {
+    color: #0d7706e3;
+    /* text-decoration: underline 3px solid rgb(247, 28, 240); */
+    /* font-style: italic; */
+    font-weight: 500;
+    /* font-family: "Syne Mono", monospace; */
+}
 :root {
     --font-color: #00ed67;   /* Green font color */
     --bg-color: #001e2b;     /* Bright green background color */
 }
 
-body {
-    background-color: black;
-}
-h1 {
-    font-size: 100px;
-    font-weight: 500;
-    text-transform: uppercase;
+.first-container {
+    margin: 0 auto;
+    padding: 0 100px;
 }
 
-h3 {
-    font-size: 40px;
-    font-weight: 500;
+.first-one {
+    width: 100%;
+    padding: 100px;
+}
+.first-one h1 {
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+}
+.first-one p {
+    padding: 0 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#btn {
+    background-color: var(--font-color);
+    font-size: 22px;
+    padding: 5px 30px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+#btn:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.5s all;
 }
