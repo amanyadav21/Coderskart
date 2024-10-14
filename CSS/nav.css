@@ -17,11 +17,26 @@ a {
     --bg-color: #001e2b;     /* Bright green background color */
 }
 
+.material-symbols-outlined {
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    /* margin-left: 0; */
+    /* background-color: wheat; */
+    /* margin-right: 5px; */
+}
+
+
 .nav-logo {
     font-family: "Syne Mono", monospace;
     font-size: 30px;
     /* text-decoration: underline 1px solid red; */
     color: var(--font-color);
+    /* background-color: blanchedalmond; */
+    padding: 3px;
+    border: #00ed67 2px solid;
+    border-radius: 2px;
 }
 /* Styling header and navbar */
 .header {
@@ -91,6 +106,7 @@ a {
     border-radius: 5px ;
     /* color: #fff; */
     color: #ffa560;
+    /* text-decoration: underline 1.5px; */
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
