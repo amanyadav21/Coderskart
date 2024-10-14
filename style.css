@@ -53,3 +53,71 @@ span {
     border-radius: 30px;
     transition: 0.5s all;
 }
+
+/* Media Queries for Responsiveness */
+
+/* Extra Small Devices (Phones, 600px and below) */
+@media (max-width: 600px) {
+
+    .first-container {
+        margin: 0 auto;
+        padding: 0 10px;
+    }  
+    .first-one {
+        padding: 100px 0px;
+    }
+    .first-one h1 {
+        /* color: black; */
+        font-size: 43px;
+        /* font-weight: 600; */
+        text-align: start;
+    }
+    .first-one p {
+        padding: 0 10px;
+        /* margin-top: 50px; */
+        text-align: start;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    #btn {
+        /* background-color: var(--font-color); */
+        font-size: 20px;
+        /* padding: 5px 30px; */
+        /* text-align: center; */
+        margin-left: 3%;
+        /* margin-top: 50px; */
+    }
+}
+
+/* Small Devices (Tablets, 600px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .first-one h1 {
+        font-size: 60px;
+    }
+
+    .first-one p {
+        font-size: 18px;
+        padding: 0 50px;
+    }
+
+    #btn {
+        font-size: 20px;
+        padding: 8px 25px;
+    }
+}
+
+/* Medium Devices (Laptops, 900px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .first-one h1 {
+        font-size: 70px;
+    }
+
+    .first-one p {
+        font-size: 20px;
+    }
+
+    #btn {
+        font-size: 21px;
+    }
+}
