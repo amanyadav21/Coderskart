@@ -1,7 +1,7 @@
 // Scroll to top when page is refreshed
-window.onload = function() {
-    window.scrollTo(0, 0);
-  };
+// window.onload = function() {
+//     window.scrollTo(0, 0);
+//   };
 
   const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".nav-menu");

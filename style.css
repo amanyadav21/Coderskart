@@ -18,7 +18,8 @@ span {
     --bg-color: #001e2b;     /* Bright green background color */
 }
 
-.first-container {
+.first-container,
+.second-container{
     margin: 0 auto;
     padding: 0 100px;
 }
@@ -137,3 +138,73 @@ span {
         margin-left: 7%; 
     }
 }
+
+/*Complete First Container*/
+
+
+/*Start Second Container*/
+.second-container {
+    background-color: black;
+}
+
+/* .second-one {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+} */
+
+.second-one {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items in one row */
+    gap: 30px; /* Adjust the gap between items */
+    justify-items: center; /* Center content horizontally */
+}
+
+.frontend,
+.backend,
+.design,
+.noncoding,
+.aitool {
+    background-color: var(--font-color);
+    width: 350px;
+    padding: 10px 10px;
+    margin: 15px auto;
+    border-radius: 10px; /* Rounded corners */
+    text-align: start;
+}
+
+.second-one h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration:underline 3px;
+    
+}
+.second-one p {
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: 22px;
+    color: black;
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+}
+
+
+
+
+
+/*End Second Container*/
