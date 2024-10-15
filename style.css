@@ -14,8 +14,8 @@ span {
     /* font-family: "Syne Mono", monospace; */
 }
 :root {
-    --font-color: #00ed67;   /* Green font color */
-    --bg-color: #001e2b;     /* Bright green background color */
+    --font-color: #00ed67;
+    --bg-color: #001e2b;
 }
 
 .first-container,
@@ -148,10 +148,18 @@ span {
     height: auto;
     padding: 100px 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 items in one row */
-    gap: 30px; /* Adjust the gap between items */
-    justify-items: center; /* Center content horizontally */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
 }
+
+/* .second-one {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+} */
 
 .frontend,
 .backend,
@@ -191,14 +199,37 @@ span {
 }
 
 @media (max-width: 600px) {
-  
+    .second-one {
+        width: 100%;
+        /* height: auto; */
+        /* padding: 100px 0; */
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr); /* 3 items in one row */
+        gap: 30px; /* Adjust the gap between items */
+        justify-items: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
     .second-one {
         width: 100%;
         height: auto;
         padding: 100px 0;
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(1, 1fr); /* 3 items in one row */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .second-one {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr); /* 3 items in one row */
         gap: 30px; /* Adjust the gap between items */
         justify-items: center;
     }
