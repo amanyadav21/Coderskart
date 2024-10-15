@@ -93,9 +93,18 @@ p {
 
 /* For Tablets (601px to 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
+
+
+    .frontdev {
+        padding: 0px 10px;
+    }
     .front-two {
-        flex-direction: row; /* Maintain row direction on medium-sized screens */
-        justify-content: space-around;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 30px;
         padding: 30px 10px;
     }
 
@@ -115,16 +124,29 @@ p {
 }
 
 /* For Larger Screens (901px to 1200px) */
-@media (min-width: 901px) and (max-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1300px) {
+
+    .frontdev {
+        padding: 0px 10px;
+    }
     .front-two {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px 10px;
+    }
+    /* .front-two {
         flex-direction: row;
         justify-content: space-between;
         padding: 30px 10px;
-    }
+    } */
 
     .content {
-        width: 350px; /* Keep the content width fixed for larger screens */
-        max-width: 400px; /* Optional, in case you want it slightly wider */
+        width: 350px;
+        max-width: 400px; 
     }
 
     img {
