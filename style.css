@@ -224,7 +224,6 @@ span {
         justify-items: center;
     }
 }
-
 @media (min-width: 901px) and (max-width: 1200px) {
     .second-one {
         width: 100%;
