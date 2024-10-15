@@ -33,30 +33,35 @@ window.onload = function() {
     explore.scrollIntoView({ behavior: "smooth" });
   });
 
+// Front-end Dev section
 
-
-
-  // Function to clone and populate the template
+// Function to clone and populate the template
 function populateTemplate(data) {
   const template = document.getElementById('card-template');
   const container = document.getElementById('content-container');
 
   data.forEach(item => {
-      const clone = template.content.cloneNode(true);
+    const clone = template.content.cloneNode(true);
 
-      // Populate cloned template with API data
-      clone.querySelector('img').src = item.imageUrl;
-      clone.querySelector('p').textContent = item.text;
+    // Populate cloned template with API data
+    clone.querySelector('img').src = item.imageUrl;
+    clone.querySelector('p').textContent = item.text;
 
-      // Append the cloned element to the container
-      container.appendChild(clone);
+    // Add event listener to the button
+    const button = clone.querySelector('.frontbtn');
+    button.addEventListener('click', () => {
+      window.open(item.url, '_blank');  // Open the link in a new tab
+    });
+
+    // Append the cloned element to the container
+    container.appendChild(clone);
   });
 }
 
 // Fetch the data and populate the template
 document.addEventListener('DOMContentLoaded', () => {
-  const data = fetchData(); // Fetching data from the simulated API
+  const data = fetchData();  // Fetching data from the simulated API
   populateTemplate(data);
 });
 
-  
+// Front-end Dev section end

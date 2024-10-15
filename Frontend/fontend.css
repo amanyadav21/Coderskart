@@ -1,26 +1,38 @@
+.frontdev {
+    /* background-color: #C6DBB1; */
+}
+
 .front-two {
+    padding: 30px 10px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
-    gap: 20px; /* Adds space between the grid items */
-    justify-items: center; /* Centers the items horizontally within each grid cell */
-    align-items: center; /* Centers the items vertically */
+    /* display: grid; */
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap: 20px; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: #C6DBB1;
 }
 
 .content {
     text-align: center;
     background-color: #fff;
-    padding: 20px 20px; /* 20px top/bottom and 20px left/right */
+    padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Fixed width */
-    height: auto; /* Flexible height */
+    /* width: 400px; */
+    width: 350px;
+    height: auto;
 }
 
 img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 p {
@@ -29,17 +41,21 @@ p {
     margin: 20px 0;
 }
 
-button {
-    padding: 10px 20px;
+.frontbtn {
+    padding: 8px 30px;
     font-size: 16px;
-    background-color: #007BFF;
+    /* background-color: #007BFF; */
+    background-color: black;
     color: white;
-    border: none;
-    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-button:hover {
-    background-color: #0056b3;
+.frontbtn:hover {
+    /* background-color: #0056b3; */
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
