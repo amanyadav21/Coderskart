@@ -111,7 +111,6 @@ span {
         margin-left: 2%;
     }
 }
- 
 /* Medium Devices (Laptops, 900px to 1200px) */
 @media (min-width: 901px) and (max-width: 1200px) {
 
@@ -132,15 +131,12 @@ span {
         font-size: 24px;
         font-weight: 500;
     }
-    
     #btn {
         font-size: 24px; 
         margin-left: 7%; 
     }
 }
-
 /*Complete First Container*/
-
 
 /*Start Second Container*/
 .second-container {
@@ -207,6 +203,4 @@ span {
         justify-items: center;
     }
 }
-
-
 /*End Second Container*/
