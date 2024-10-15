@@ -1,0 +1,45 @@
+.front-two {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px; /* Adds space between the grid items */
+    justify-items: center; /* Centers the items horizontally within each grid cell */
+    align-items: center; /* Centers the items vertically */
+}
+
+.content {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 20px; /* 20px top/bottom and 20px left/right */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Fixed width */
+    height: auto; /* Flexible height */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

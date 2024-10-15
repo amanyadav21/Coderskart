@@ -32,4 +32,31 @@ window.onload = function() {
     btn.innerText = "Try Again";  
     explore.scrollIntoView({ behavior: "smooth" });
   });
+
+
+
+
+  // Function to clone and populate the template
+function populateTemplate(data) {
+  const template = document.getElementById('card-template');
+  const container = document.getElementById('content-container');
+
+  data.forEach(item => {
+      const clone = template.content.cloneNode(true);
+
+      // Populate cloned template with API data
+      clone.querySelector('img').src = item.imageUrl;
+      clone.querySelector('p').textContent = item.text;
+
+      // Append the cloned element to the container
+      container.appendChild(clone);
+  });
+}
+
+// Fetch the data and populate the template
+document.addEventListener('DOMContentLoaded', () => {
+  const data = fetchData(); // Fetching data from the simulated API
+  populateTemplate(data);
+});
+
   

@@ -19,7 +19,9 @@ span {
 }
 
 .first-container,
-.second-container{
+.second-container
+.third-container,
+.frontdev {
     margin: 0 auto;
     padding: 0 100px;
 }
