@@ -59,3 +59,80 @@ p {
     border: 1px solid black;
     color: black;
 }
+
+/* --- Responsive Design --- */
+
+/* For Mobile Devices (Max-width: 600px) */
+@media (max-width: 600px) {
+    .frontdev {
+        padding: 0px 10px;
+    }
+    .front-two {
+        width: 100%;
+        flex-direction: column; /* Stack content vertically on small screens */
+        padding: 20px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .content {
+        width: 100%; /* Full width with some padding */
+        max-width: none;
+    }
+
+    img {
+        width: 100%; /* Make images fully responsive */
+    }
+    
+    .frontbtn {
+        padding: 8px 20px;
+        font-size: 14px; /* Slightly smaller button on smaller screens */
+    }
+}
+
+/* For Tablets (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .front-two {
+        flex-direction: row; /* Maintain row direction on medium-sized screens */
+        justify-content: space-around;
+        padding: 30px 10px;
+    }
+
+    .content {
+        width: 80%; /* Increase width but still leave some space for small screens */
+        max-width: 350px;
+    }
+
+    img {
+        width: 100%; /* Ensure image remains responsive */
+    }
+
+    .frontbtn {
+        padding: 8px 25px;
+        font-size: 15px; /* Adjust button size for medium devices */
+    }
+}
+
+/* For Larger Screens (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .front-two {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 10px;
+    }
+
+    .content {
+        width: 350px; /* Keep the content width fixed for larger screens */
+        max-width: 400px; /* Optional, in case you want it slightly wider */
+    }
+
+    img {
+        width: 100%; /* Ensure image adapts to the content container */
+    }
+
+    .frontbtn {
+        padding: 10px 30px;
+        font-size: 16px; /* Regular button size for larger screens */
+    }
+}
