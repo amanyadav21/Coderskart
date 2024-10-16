@@ -33,6 +33,8 @@ window.onload = function() {
     explore.scrollIntoView({ behavior: "smooth" });
   });
 
+  
+
 // Front-end Dev section
 
 // Function to clone and populate the template
