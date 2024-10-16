@@ -160,6 +160,14 @@ p {
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
+
+
+
+    .frontdev {
+        margin: 0 auto;
+        padding: 0px 10px
+    }    
+
     .front-two {
         display: flex;
         flex-wrap: wrap;
