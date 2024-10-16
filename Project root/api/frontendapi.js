@@ -1,13 +1,24 @@
 // Simulating an API call to fetch data
 function fetchData() {
     return [
-      { imageUrl: "/Project root/Images/frontend/color/colorhunt.png", text: "Color Hunt is a free collection of curated color palettes.", url: "https://colorhunt.co" },
-      { imageUrl: "/Project root/Images/frontend/color/adobecolor.png", text: "Adobe Color is a tool for creating and exploring color palettes.", url: "https://color.adobe.com" },
-      { imageUrl: "/Project root/Images/frontend/color/coolors.png", text: "Colors is an online platform for exploring and generating color palettes.", url: "https://coolors.co" }
+      { imageUrl: "/Project root/Images/frontend/color/colorhunt.png", 
+        text: "Color Hunt is a free collection of curated color palettes.", 
+        url: "https://colorhunt.co" 
+      },
+      { imageUrl: "/Project root/Images/frontend/color/adobecolor.png", 
+        text: "Adobe Color is a tool for creating and exploring color palettes.", 
+        url: "https://color.adobe.com" 
+      },
+      { imageUrl: "/Project root/Images/frontend/color/coolors.png", 
+        text: "Colors is an online platform for exploring and generating color palettes.", 
+        url: "https://coolors.co" 
+      }
     ];
   }
 
 
+
+/////////////////////////////////////////////////////// End Point Of Color///////////////////////////////////////////////////////
 
 
 // Simulating an API call to fetch icon data
@@ -40,6 +51,37 @@ function fetchDataicon() {
     }
   ];
 }
+/////////////////////////////////End Point of icon////////////////////////////////////////////////
+
+
+/////////////////////////////////Start Free Image Section////////////////////////////////////////////////
+
+// Simulated API call to fetch free image resources
+// export function fetchDataImage() {
+//   return [
+//     {
+//       imageUrl: "/Project root/Images/frontend/freeimage/unsplash.png",
+//       text: "Unsplash offers free high-resolution photos from photographers worldwide.",
+//       url: "https://unsplash.com/"
+//     },
+//     {
+//       imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
+//       text: "Pexels provides free stock images and videos shared by creators.",
+//       url: "https://www.pexels.com/"
+//     },
+//     {
+//       imageUrl: "/Project root/Images/frontend/freeimage/pixabay.png",
+//       text: "Pixabay offers over 2.5 million free stock photos, videos, and music.",
+//       url: "https://pixabay.com/"
+//     },
+//     {
+//       imageUrl: "/Project root/Images/frontend/freeimage/flickr.png",
+//       text: "Flickr is a photo-sharing platform with a variety of free-to-use images.",
+//       url: "https://www.flickr.com/"
+//     }
+//   ];
+// }
+/////////////////////////////////End Free Image Section////////////////////////////////////////////////
 
 
 
