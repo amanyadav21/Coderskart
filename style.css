@@ -6,6 +6,7 @@
     box-sizing: border-box;
     /* font-family: "Syne Mono", monospace; */
 }
+
 span {
     color: #0d7706e3;
     /* text-decoration: underline 3px solid rgb(247, 28, 240); */
@@ -237,51 +238,3 @@ span {
     }
 }
 /*End Second Container*/
-
-/* Front Div start */
-.everyh {
-    margin-top: 50px;
-    /* text-align: center; */
-    font-size: 60px;
-    font-weight: 400;
-}
-.everyp {
-    font-size: 20px;
-}
-
-@media (max-width: 600px) {
-    .everyh {
-        /* background-color: rebeccapurple; */
-        font-size: 29px;
-        font-weight: 600;
-    }
-    .everyp {
-        font-weight: normal;
-    }
-}
-
-
-/* For screens between 601px and 900px */
-@media (min-width: 601px) and (max-width: 900px) {
-    .everyh {
-        font-size: 50px; /* Adjust as needed */
-        font-weight: 600;
-    }
-    .everyp {
-        font-size: 20px; /* Adjust font-size or any other property */
-        font-weight: normal;
-    }
-}
-
-/* For screens between 901px and 1200px */
-@media (min-width: 901px) and (max-width: 1200px) {
-    .everyh {
-        font-size: 40px; /* Adjust as needed */
-        font-weight: 600;
-    }
-    .everyp {
-        font-size: 20px; /* Adjust font-size or any other property */
-        font-weight: normal;
-    }
-}
-/* Front Div end */
