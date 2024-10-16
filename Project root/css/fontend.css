@@ -248,7 +248,20 @@ p {
     }
 }
 
+/* Section h1 */
+.section-h1 {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
 
+/* End Section h1 */
+
+/* Front Icon Container */
 
 #front-icon,
 #content-container-icon {
@@ -256,3 +269,5 @@ p {
     /* background-color: #C9E9D2; */
     background-color: #FF6500;
 }
+
+/* End Front Icon Container */
