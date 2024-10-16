@@ -247,3 +247,12 @@ p {
         font-size: 16px;
     }
 }
+
+
+
+#front-icon,
+#content-container-icon {
+    /* background-color: #091057; */
+    /* background-color: #C9E9D2; */
+    background-color: #FF6500;
+}
