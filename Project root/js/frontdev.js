@@ -1,5 +1,3 @@
-// Front-end Dev section
-
 // Function to clone and populate the template
 function populateTemplate(data) {
     const template = document.getElementById('card-template');
@@ -13,7 +11,7 @@ function populateTemplate(data) {
       clone.querySelector('p').textContent = item.text;
   
       // Add event listener to the button
-      const button = clone.querySelector('.frontbtn');
+      const button = clone.querySelector('.uni-btn');
       button.addEventListener('click', () => {
         window.open(item.url, '_blank');  // Open the link in a new tab
       });
@@ -30,3 +28,34 @@ function populateTemplate(data) {
   });
   
   // Front-end Dev section end
+
+///////////////////////////////////////////////////////////ICON/////////////////////////////////////////////////////////////////////////
+
+// Function to clone and populate the icon template
+function populateTemplateicon(iconData) {
+  const template = document.getElementById('card-template-icon');
+  const container = document.getElementById('content-container-icon');
+
+  iconData.forEach(item => {
+    const clone = template.content.cloneNode(true);
+
+    // Populate cloned template with API data
+    clone.querySelector('img').src = item.imageUrl;
+    clone.querySelector('p').textContent = item.text;
+
+    // Add event listener to the button
+    const button = clone.querySelector('.uni-btn');
+    button.addEventListener('click', () => {
+      window.open(item.url, '_blank');  // Open the link in a new tab
+    });
+
+    // Append the cloned element to the container
+    container.appendChild(clone);
+  });
+}
+
+// Fetch the icon data and populate the template on page load
+document.addEventListener('DOMContentLoaded', () => {
+  const iconData = fetchDataicon();  // Fetching data from the simulated API
+  populateTemplateicon(iconData);
+});

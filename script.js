@@ -24,7 +24,7 @@ window.onload = function() {
       navMenu.classList.remove("active");
   }
 
-  
+  // Home page section
   let btn = document.getElementById("btn");
   let explore = document.querySelector("#Explore");
   

@@ -1,19 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 * {
     font-family: "Raleway", serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: "Syne Mono", monospace; */
 }
 
 span {
     color: #0d7706e3;
-    /* text-decoration: underline 3px solid rgb(247, 28, 240); */
-    /* font-style: italic; */
     font-weight: 500;
-    /* font-family: "Syne Mono", monospace; */
 }
+
 :root {
     --font-color: #00ed67;
     --bg-color: #001e2b;
@@ -24,21 +20,19 @@ span {
     padding: 0 100px;
 }
 
-
 /* Front Div start */
 .everyh {
     margin-top: 50px;
-    /* text-align: center; */
     font-size: 60px;
     font-weight: 400;
 }
+
 .everyp {
     font-size: 20px;
 }
 
 @media (max-width: 600px) {
     .everyh {
-        /* background-color: rebeccapurple; */
         font-size: 29px;
         font-weight: 600;
     }
@@ -47,15 +41,14 @@ span {
     }
 }
 
-
 /* For screens between 601px and 900px */
 @media (min-width: 601px) and (max-width: 900px) {
     .everyh {
-        font-size: 50px; /* Adjust as needed */
+        font-size: 50px;
         font-weight: 600;
     }
     .everyp {
-        font-size: 20px; /* Adjust font-size or any other property */
+        font-size: 20px;
         font-weight: normal;
     }
 }
@@ -63,44 +56,44 @@ span {
 /* For screens between 901px and 1200px */
 @media (min-width: 901px) and (max-width: 1200px) {
     .everyh {
-        font-size: 40px; /* Adjust as needed */
+        font-size: 40px;
         font-weight: 600;
     }
     .everyp {
-        font-size: 20px; /* Adjust font-size or any other property */
+        font-size: 20px;
         font-weight: normal;
     }
 }
 /* Front Div end */
 
 .frontdev {
-    /* background-color: #C6DBB1; */
+    margin: 0 auto;
+    padding: 0px 40px
 }
 
 .front-two {
-    padding: 30px 10px;
     width: 100%;
-    /* display: grid; */
-    display: flex;
+    padding: 30px 20px;
+    display: grid;
     justify-content: space-between;
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* gap: 20px; */
-    /* justify-items: center; */
-    /* align-items: center; */
-    /* border: 2px solid red; */
-    border-radius: 30px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
     background-color: #C6DBB1;
+    border-radius: 30px;
 }
 
+
+/* Card Template */
 .content {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* width: 400px; */
     width: 350px;
     height: auto;
+
 }
 
 img {
@@ -116,10 +109,9 @@ p {
     margin: 20px 0;
 }
 
-.frontbtn {
+.uni-btn {
     padding: 8px 30px;
     font-size: 16px;
-    /* background-color: #007BFF; */
     background-color: black;
     color: white;
     border: 1px solid black;
@@ -128,108 +120,116 @@ p {
     transition: background-color 0.3s;
 }
 
-.frontbtn:hover {
-    /* background-color: #0056b3; */
+.uni-btn:hover {
     background-color: white;
     border: 1px solid black;
     color: black;
 }
 
-/* --- Responsive Design --- */
+/* Responsive Design */
 
-/* For Mobile Devices (Max-width: 600px) */
 @media (max-width: 600px) {
+
+
     .frontdev {
-        padding: 0px 10px;
-    }
+        margin: 0 auto;
+        padding: 0px 10px
+    }    
     .front-two {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px 0px;
+    }
+
+    .content {
         width: 100%;
-        flex-direction: column; /* Stack content vertically on small screens */
-        padding: 20px 10px;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .content {
-        width: 100%; /* Full width with some padding */
         max-width: none;
+        padding: 20px;
     }
 
     img {
-        width: 100%; /* Make images fully responsive */
+        width: 100%;
+        height: auto;
     }
-    
-    .frontbtn {
+
+    .uni-btn {
         padding: 8px 20px;
-        font-size: 14px; /* Slightly smaller button on smaller screens */
+        font-size: 14px;
     }
 }
 
-/* For Tablets (601px to 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
-
-
-    .frontdev {
-        padding: 0px 10px;
-    }
     .front-two {
         display: flex;
-        /* flex-direction: row; */
-        justify-content: space-between;
-        align-items: start;
         flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
         gap: 30px;
-        padding: 30px 10px;
     }
 
     .content {
-        width: 80%; /* Increase width but still leave some space for small screens */
-        max-width: 350px;
+        width: 80%;
+        max-width: 290px;
     }
 
     img {
-        width: 100%; /* Ensure image remains responsive */
+        width: 100%;
+        height: auto;
     }
 
-    .frontbtn {
+    .uni-btn {
         padding: 8px 25px;
-        font-size: 15px; /* Adjust button size for medium devices */
+        font-size: 15px;
     }
 }
 
-/* For Larger Screens (901px to 1200px) */
 @media (min-width: 901px) and (max-width: 1300px) {
-
-    .frontdev {
-        padding: 0px 10px;
-    }
     .front-two {
         display: flex;
-        /* flex-direction: row; */
         justify-content: space-between;
         align-items: start;
         flex-wrap: wrap;
         gap: 30px;
         padding: 30px 10px;
     }
-    /* .front-two {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 30px 10px;
-    } */
 
     .content {
         width: 350px;
-        max-width: 400px; 
+        max-width: 400px;
     }
 
     img {
-        width: 100%; /* Ensure image adapts to the content container */
+        width: 100%;
+        height: auto;
     }
 
-    .frontbtn {
+    .uni-btn {
         padding: 10px 30px;
-        font-size: 16px; /* Regular button size for larger screens */
+        font-size: 16px;
+    }
+}
+
+/* Large Screens (1300px and above) */
+@media (min-width: 1300px) {
+    .front-two {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
+        gap: 50px;
+        justify-items: center;
+    }
+
+    .content {
+        width: 350px;
+        max-width: 400px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .uni-btn {
+        padding: 10px 30px;
+        font-size: 16px;
     }
 }

@@ -21,8 +21,7 @@ span {
 
 .first-container,
 .second-container
-.third-container,
-.frontdev {
+.third-container {
     margin: 0 auto;
     padding: 0 100px;
 }
@@ -155,14 +154,6 @@ span {
     gap: 30px;
     justify-items: center;
 }
-
-/* .second-one {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-} */
 
 .frontend,
 .backend,
