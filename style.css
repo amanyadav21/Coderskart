@@ -185,6 +185,7 @@ span {
     padding: 2px 15px;
     border-radius: 20px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .btn:hover {
