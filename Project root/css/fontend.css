@@ -85,7 +85,8 @@ span {
 
 
 /* Card Template */
-.content {
+.content,
+.content-icon {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
@@ -141,7 +142,8 @@ p {
         padding: 25px 12px;
     }
 
-    .content {
+    .content,
+    .content-icon {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -176,7 +178,8 @@ p {
         gap: 30px;
     }
 
-    .content {
+    .content,
+    .content-icon {
         width: 80%;
         max-width: 290px;
     }
@@ -202,7 +205,8 @@ p {
         padding: 30px 10px;
     }
 
-    .content {
+    .content,
+    .content-icon {
         width: 350px;
         max-width: 400px;
     }
@@ -227,7 +231,8 @@ p {
         justify-items: center;
     }
 
-    .content {
+    .content,
+    .content-icon {
         width: 350px;
         max-width: 400px;
     }
