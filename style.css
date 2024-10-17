@@ -8,7 +8,8 @@
 }
 
 span {
-    color: #0d7706e3;
+    /* color: #0d7706e3; */
+    color: #ef6007e3;
     /* text-decoration: underline 3px solid rgb(247, 28, 240); */
     /* font-style: italic; */
     font-weight: 500;
@@ -26,17 +27,26 @@ span {
     padding: 0 100px;
 }
 
+.first-container {
+    background-image: url(/bgc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .first-one {
     width: 100%;
     padding: 100px;
 }
 .first-one h1 {
-    color: black;
+    /* color: black; */
+    color: white;
     font-size: 80px;
     font-weight: 600;
     text-align: center;
 }
 .first-one p {
+    color: wheat;
     padding: 0 100px;
     margin-top: 50px;
     text-align: center;
@@ -50,6 +60,7 @@ span {
     text-align: center;
     margin-left: 46%;
     margin-top: 50px;
+    border: 2px solid white;
 }
 #btn:hover{
     cursor: pointer;
@@ -143,6 +154,12 @@ span {
 /*Start Second Container*/
 .second-container {
     background-color: black;
+    /* margin: 30px 0px;
+    border-radius: 5%; */
+    /* background-image: url(/1601.m10.i307.n008.F.c05.205439527\ Vector\ grid\ marking\ for\ user\ HUD\ interface.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;     */
 }
 
 .second-one {
