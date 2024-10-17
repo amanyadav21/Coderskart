@@ -62,23 +62,23 @@ function fetchDataImage() {
   return [
     {
       imageUrl: "/Project root/Images/frontend/freeimage/unsplash.png",
-      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
-      url: "http://www.codeupto.com/"
+      text: "Unsplash offers a vast library of high-resolution, royalty-free images. It's one of the top resources for developers, designers, and creatives",
+      url: "https://unsplash.com/"
     },
     {
       imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
-      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
-      url: "http://www.codehelp.com/"
+      text: "Pexels provides high-quality, free stock photos and videos licensed under the Pexels license.",
+      url: "https://www.pexels.com/"
     },
     {
-      imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
-      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
-      url: "http://www.codehelp.com/"
+      imageUrl: "/Project root/Images/frontend/freeimage/pixabay.png",
+      text: " Pixabay offers over 2.7 million royalty-free stock photos, videos, and music shared by its community. It’s a go-to resource for anyone looking to enhance their projects.",
+      url: "https://pixabay.com/"
     },
     {
-      imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
-      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
-      url: "http://www.codehelp.com/"
+      imageUrl: "/Project root/Images/frontend/freeimage/flickr.png",
+      text: " Flickr is a platform where photographers share their work with a large community. It hosts millions of photos, many of which are available for free under Creative Commons licenses.",
+      url: "https://www.flickr.com/"
     }
   ];
 }

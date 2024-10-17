@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 span {
     color: #0d7706e3;
     font-weight: 500;
