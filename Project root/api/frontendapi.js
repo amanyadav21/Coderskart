@@ -57,30 +57,32 @@ function fetchDataicon() {
 /////////////////////////////////Start Free Image Section////////////////////////////////////////////////
 
 // Simulated API call to fetch free image resources
-// export function fetchDataImage() {
-//   return [
-//     {
-//       imageUrl: "/Project root/Images/frontend/freeimage/unsplash.png",
-//       text: "Unsplash offers free high-resolution photos from photographers worldwide.",
-//       url: "https://unsplash.com/"
-//     },
-//     {
-//       imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
-//       text: "Pexels provides free stock images and videos shared by creators.",
-//       url: "https://www.pexels.com/"
-//     },
-//     {
-//       imageUrl: "/Project root/Images/frontend/freeimage/pixabay.png",
-//       text: "Pixabay offers over 2.5 million free stock photos, videos, and music.",
-//       url: "https://pixabay.com/"
-//     },
-//     {
-//       imageUrl: "/Project root/Images/frontend/freeimage/flickr.png",
-//       text: "Flickr is a photo-sharing platform with a variety of free-to-use images.",
-//       url: "https://www.flickr.com/"
-//     }
-//   ];
-// }
+
+function fetchDataImage() {
+  return [
+    {
+      imageUrl: "/Project root/Images/frontend/freeimage/unsplash.png",
+      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
+      url: "http://www.codeupto.com/"
+    },
+    {
+      imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
+      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
+      url: "http://www.codehelp.com/"
+    },
+    {
+      imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
+      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
+      url: "http://www.codehelp.com/"
+    },
+    {
+      imageUrl: "/Project root/Images/frontend/freeimage/pexels.png",
+      text: "jfkdjkfjdkjfkjdkjfkdfjdkjfjdkj",
+      url: "http://www.codehelp.com/"
+    }
+  ];
+}
+
 /////////////////////////////////End Free Image Section////////////////////////////////////////////////
 
 

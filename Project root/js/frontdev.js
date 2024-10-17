@@ -72,7 +72,6 @@ function populateTemplateImage(imageData) {
 
     // Populate cloned template with API data
     clone.querySelector('img').src = item.imageUrl;
-    clone.querySelector('img').alt = item.text; // Add alt text for better accessibility
     clone.querySelector('p').textContent = item.text;
 
     // Add event listener to the button

@@ -86,7 +86,8 @@ span {
 
 /* Card Template */
 .content,
-.content-icon {
+.content-icon,
+.content-image {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
@@ -143,7 +144,8 @@ p {
     }
 
     .content,
-    .content-icon {
+    .content-icon,
+    .content-image {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -206,7 +208,8 @@ p {
     }
 
     .content,
-    .content-icon {
+    .content-icon,
+    .content-image {
         width: 350px;
         max-width: 400px;
     }
@@ -232,7 +235,8 @@ p {
     }
 
     .content,
-    .content-icon {
+    .content-icon,
+    .content-image {
         width: 350px;
         max-width: 400px;
     }
