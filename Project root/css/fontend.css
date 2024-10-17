@@ -33,13 +33,12 @@ span {
     font-size: 20px;
 }
 
-#h {
+.h {
     color: #ed5f00;
     font-size: 25px;
     font-weight: 400;
     text-align: start;
     text-decoration: overline 1.5px solid black;
-
 }
 
 @media (max-width: 600px) {
@@ -49,6 +48,9 @@ span {
     }
     .everyp {
         font-weight: normal;
+    }
+    .h{
+        font-size: 17px;
     }
 }
 
@@ -61,6 +63,9 @@ span {
     .everyp {
         font-size: 20px;
         font-weight: normal;
+    }
+    .h{
+        font-size: 21px;
     }
 }
 
