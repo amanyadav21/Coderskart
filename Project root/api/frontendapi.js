@@ -82,8 +82,29 @@ function fetchDataImage() {
     }
   ];
 }
-
 /////////////////////////////////End Free Image Section////////////////////////////////////////////////
+
+/////////////////////////////////Font Section////////////////////////////////////////////////
+
+function fetchDataFont() {
+  return [
+    {
+      imageUrl: "/Project root/Images/frontend/font/googelfont.png",
+      text: "Google Fonts offers a vast library of free and open-source fonts that are easy to integrate into web projects.",
+      url: "https://fonts.google.com/"
+    },
+    {
+      imageUrl: "/Project root/Images/frontend/font/adobefont.png",
+      text: "Adobe Fonts is part of the Adobe Creative Cloud suite, offering an extensive collection of premium, high-quality fonts.",
+      url: "https://fonts.adobe.com/"
+    },
+    {
+      imageUrl: "/Project root/Images/frontend/font/myfont.png",
+      text: "MyFonts is a popular marketplace for purchasing fonts from a wide variety of independent foundries. It offers an extensive collection of both free and paid fonts.",
+      url: "https://www.myfonts.com/"
+    }
+  ];
+}
 
 
 

@@ -89,7 +89,8 @@ span {
 /* Card Template */
 .content,
 .content-icon,
-.content-image {
+.content-image,
+.content-font {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
@@ -147,7 +148,8 @@ p {
 
     .content,
     .content-icon,
-    .content-image {
+    .content-image,
+    .content-font {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -183,7 +185,9 @@ p {
     }
 
     .content,
-    .content-icon {
+    .content-icon,
+    .content-image,
+    .content-font {
         width: 80%;
         max-width: 290px;
     }
@@ -211,7 +215,8 @@ p {
 
     .content,
     .content-icon,
-    .content-image {
+    .content-image,
+    .content-font {
         width: 350px;
         max-width: 400px;
     }
@@ -238,7 +243,8 @@ p {
 
     .content,
     .content-icon,
-    .content-image {
+    .content-image,
+    .content-font {
         width: 350px;
         max-width: 400px;
     }
@@ -268,12 +274,24 @@ p {
 /* End Section h1 */
 
 /* Front Icon Container */
-
 #front-icon,
 #content-container-icon {
     /* background-color: #091057; */
     /* background-color: #C9E9D2; */
     background-color: #FF6500;
 }
-
 /* End Front Icon Container */
+
+/* Front Image Section */
+#front-image,
+#content-container-image {
+    background-color: #493628;
+}
+/*  End Front Image Section */
+
+/* Front font section */
+#front-font,
+#content-container-font {
+    background-color: #87A2FF;
+}
+/* End Front font section */
