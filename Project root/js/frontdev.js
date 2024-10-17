@@ -7,6 +7,7 @@ function populateTemplate(data) {
       const clone = template.content.cloneNode(true);
   
       // Populate cloned template with API data
+      clone.querySelector('h2').textContent = item.h;
       clone.querySelector('img').src = item.imageUrl;
       clone.querySelector('p').textContent = item.text;
   
