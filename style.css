@@ -6,7 +6,9 @@
     box-sizing: border-box;
     /* font-family: "Syne Mono", monospace; */
 }
-
+html {
+    scroll-behavior: smooth;
+}
 span {
     /* color: #0d7706e3; */
     color: #ef6007e3;
