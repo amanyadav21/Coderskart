@@ -1,9 +1,9 @@
-// Function to clone and populate the backend template
-function populateTemplateBackend(backendData) {
-  const template = document.getElementById('card-template-backend');
-  const container = document.getElementById('content-container-backend');
+// Function to clone and populate the template
+function populateTemplate(data) {
+  const template = document.getElementById('card-template-cloud');
+  const container = document.getElementById('content-container-cloud');
 
-  backendData.forEach(item => {
+  data.forEach(item => {
     const clone = template.content.cloneNode(true);
 
     // Populate cloned template with API data
@@ -22,8 +22,8 @@ function populateTemplateBackend(backendData) {
   });
 }
 
-// Fetch the backend developer data and populate the template on page load
+// Fetch the data and populate the template
 document.addEventListener('DOMContentLoaded', () => {
-  const backendData = fetchDataBackend();  // Fetching data from the simulated API
-  populateTemplateBackend(backendData);
+  const data = fetchData();  // Fetching data from the simulated API
+  populateTemplate(data);
 });

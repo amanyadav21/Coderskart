@@ -1,35 +1,20 @@
-// Simulating an API call to fetch backend developer data
-function fetchDataBackend() {
+// Simulating an API call to fetch data
+function fetchData() {
   return [
-    {
-      h: "Node.js",
-      imageUrl: "/Project root/Images/Backend/cloud platforms",
-      text: "Node.js is a JavaScript runtime built on Chrome's V8 engine, allowing you to build scalable network applications.",
-      url: "https://nodejs.org/en/"
+    { h: "Color Hunt",
+      imageUrl: "/Project root/Images/Backend/cloud platforms/aws.png", 
+      text: "Color Hunt is a free collection of curated color palettes.", 
+      url: "https://colorhunt.co" 
     },
-    {
-      h: "Express.js",
-      imageUrl: "/Project root/Images/backend/expressjs.png",
-      text: "Express.js is a minimal and flexible Node.js web application framework, providing a robust set of features.",
-      url: "https://expressjs.com/"
+    { h: "Adobe Color",
+      imageUrl: "/Project root/Images/frontend/color/adobecolor.png", 
+      text: "Adobe Color is a tool for creating and exploring color palettes.", 
+      url: "https://color.adobe.com" 
     },
-    {
-      h: "Django",
-      imageUrl: "/Project root/Images/backend/django.png",
-      text: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
-      url: "https://www.djangoproject.com/"
-    },
-    {
-      h: "Spring Boot",
-      imageUrl: "/Project root/Images/backend/springboot.png",
-      text: "Spring Boot is a framework for building production-ready applications with Java and Spring.",
-      url: "https://spring.io/projects/spring-boot"
-    },
-    {
-      h: "Laravel",
-      imageUrl: "/Project root/Images/backend/laravel.png",
-      text: "Laravel is a PHP framework for web artisans, offering an elegant syntax and a solid foundation for building web apps.",
-      url: "https://laravel.com/"
+    { h: "Colors",
+      imageUrl: "/Project root/Images/frontend/color/coolors.png", 
+      text: "Colors is an online platform for exploring and generating color palettes.", 
+      url: "https://coolors.co" 
     }
   ];
 }
