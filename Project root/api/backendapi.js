@@ -1,4 +1,4 @@
-// Simulating an API call to fetch data
+// Simulating an API call to fetch data cloud platform
 function fetchData() {
   return [
     { h: "Aws",
@@ -49,7 +49,7 @@ function fetchData() {
 
 
 
-// Simulating an API call to fetch data
+// Simulating an API call to fetch data authenticaton
 function fetchDataautho() {
   return [
     { h: "Firebase",
@@ -90,9 +90,7 @@ function fetchDataautho() {
   ];
 }
 
-
-
-// Simulating an API call to fetch data
+// Simulating an API call to fetch data hosting
 function fetchDatahosting() {
   return [
     { h: "Firebase",
