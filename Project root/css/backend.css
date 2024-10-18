@@ -111,7 +111,8 @@ span {
 .content-image,
 .content-font, */
 .content-cloud,
-.content-autho {
+.content-autho,
+.content-hosting {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
@@ -172,7 +173,8 @@ p {
     /* .content-image, */
     /* .content-font, */
     .content-cloud,
-    .content-autho {
+    .content-autho,
+    .content-hosting {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -212,7 +214,8 @@ p {
     .content-image,
     .content-font, */
     .content-cloud,
-    .content-autho {
+    .content-autho,
+    .content-hosting {
         width: 80%;
         max-width: 290px;
     }
@@ -243,7 +246,8 @@ p {
     .content-image,
     .content-font, */
     .content-cloud,
-    .content-autho {
+    .content-autho,
+    .content-hosting {
         width: 350px;
         max-width: 400px;
     }
@@ -273,7 +277,8 @@ p {
     .content-image,
     .content-font, */
     .content-cloud,
-    .content-autho {
+    .content-autho,
+    .content-hosting {
         width: 350px;
         max-width: 400px;
     }
