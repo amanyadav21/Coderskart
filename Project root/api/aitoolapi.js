@@ -1,46 +1,28 @@
 // Simulating an API call to fetch data cloud platform
 function fetchData() {
     return [
-      { h: "Aws",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/aws.png", 
-        text: "AWS is Amazon's cloud platform offering services like computing power, storage, and databases, supporting scalable and flexible cloud solutions.", 
-        url: "https://aws.amazon.com/?nc2=h_lg" 
+      { h: "Chatgpt",
+        imageUrl: "/Project root/Images/aitool/chatpgt.png", 
+        text: "Ideal for solving coding problems, learning new programming concepts, generating quick code examples, and automating simple tasks like generating documentation or writing test cases.", 
+        url: "https://openai.com/chatgpt" 
       },
   
-      { h: "Firebase",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/firebase.png", 
-        text: "Firebase, by Google, provides tools like databases and analytics to help developers build and grow web and mobile apps faster", 
-        url: "https://firebase.google.com/" 
+      { h: "Blackbox AI",
+        imageUrl: "/Project root/Images/aitool/blackbox-ai.png", 
+        text: "A powerful tool for automating network operations, offering AI-driven network analysis and compliance checks.", 
+        url: "https://www.blackbox.ai/" 
       },
   
-      { h: "MongoDB Atlas",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/mangodb alters.png", 
-        text: "MongoDB Atlas is a fully managed NoSQL database service that allows developers to run MongoDB databases on major cloud platforms, offering scalability and security.", 
-        url: "https://www.mongodb.com/products/platform/atlas-database" 
+      { h: "Github Copilot",
+        imageUrl: "/Project root/Images/aitool/Copilot.png", 
+        text: "Integrated with popular editors, it provides AI-powered code suggestions and entire code snippets, helping developers speed up coding and learn new technologies.", 
+        url: "https://github.com/features/copilot" 
       },
   
-      { h: "Azure",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/azure.png", 
-        text: "Azure is Microsoft's cloud platform providing a range of services like AI, machine learning, and storage for scalable application development..", 
-        url: "https://azure.microsoft.com/en-in" 
-      },
-  
-      { h: "Digital ocean",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/digitalocean.png", 
-        text: "DigitalOcean offers virtual servers and scalable cloud solutions, focused on simplicity for developers and small businesses..", 
-        url: "https://www.digitalocean.com/" 
-      },
-  
-      { h: "Google Cloud",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/google-cloud.png", 
-        text: "Google Cloud offers services like storage, computing, and machine learning, known for speed, reliability, and Google integration..", 
-        url: "https://coolors.co" 
-      },
-  
-      { h: "Heroku",
-        imageUrl: "/Project root/Images/Backend/cloud platforms/heroku (1).png", 
-        text: "Heroku is a cloud platform that lets developers build, run, and deploy applications easily, known for its simplicity and multi-language support.", 
-        url: "https://www.heroku.com/" 
+      { h: "Google gemini",
+        imageUrl: "/Project root/Images/aitool/google-gemini.png", 
+        text: "Google's advanced AI model, designed for various AI tasks including natural language understanding, code generation, and more.", 
+        url: "https://gemini.google.com/app" 
       }
     ];
   }
