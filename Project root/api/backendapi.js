@@ -13,7 +13,7 @@ function fetchData() {
       url: "https://firebase.google.com/" 
     },
 
-    { h: "MongoDB Alts",
+    { h: "MongoDB Atlas",
       imageUrl: "/Project root/Images/Backend/cloud platforms/mangodb alters.png", 
       text: "MongoDB Atlas is a fully managed NoSQL database service that allows developers to run MongoDB databases on major cloud platforms, offering scalability and security.", 
       url: "https://www.mongodb.com/products/platform/atlas-database" 
