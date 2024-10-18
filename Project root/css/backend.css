@@ -106,11 +106,12 @@ span {
 
 
 /* Card Template */
-.content,
+/* .content,
 .content-icon,
 .content-image,
-.content-font,
-.content-cloud {
+.content-font, */
+.content-cloud,
+.content-autho {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
@@ -166,11 +167,12 @@ p {
         padding: 25px 12px;
     }
 
-    .content,
-    .content-icon,
-    .content-image,
-    .content-font,
-    .content-cloud {
+    /* .content,
+    .content-icon, */
+    /* .content-image, */
+    /* .content-font, */
+    .content-cloud,
+    .content-autho {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -205,11 +207,12 @@ p {
         gap: 30px;
     }
 
-    .content,
+    /* .content,
     .content-icon,
     .content-image,
-    .content-font,
-    .content-cloud {
+    .content-font, */
+    .content-cloud,
+    .content-autho {
         width: 80%;
         max-width: 290px;
     }
@@ -235,11 +238,12 @@ p {
         padding: 30px 10px;
     }
 
-    .content,
+    /* .content,
     .content-icon,
     .content-image,
-    .content-font,
-    .content-cloud {
+    .content-font, */
+    .content-cloud,
+    .content-autho {
         width: 350px;
         max-width: 400px;
     }
@@ -264,10 +268,12 @@ p {
         justify-items: center;
     }
 
-    .content,
+    /* .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font, */
+    .content-cloud,
+    .content-autho {
         width: 350px;
         max-width: 400px;
     }
