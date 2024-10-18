@@ -1,0 +1,336 @@
+* {
+    font-family: "Raleway", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+span {
+    color: #0d7706e3;
+    font-weight: 500;
+}
+
+:root {
+    --font-color: #00ed67;
+    --bg-color: #001e2b;
+}
+
+.frontdev {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+/* Front Div start */
+.everyh {
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.everyp {
+    font-size: 20px;
+}
+
+.h {
+    color: #ed5f00;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: start;
+    text-decoration: overline 1.5px solid black;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .everyh {
+        font-size: 29px;
+        font-weight: 600;
+    }
+    .everyp {
+        font-weight: normal;
+    }
+    .h{
+        font-size: 17px;
+    }
+}
+
+/* For screens between 601px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    .everyh {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .everyp {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .h{
+        font-size: 21px;
+    }
+}
+
+/* For screens between 901px and 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .everyh {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .everyp {
+        font-size: 20px;
+        font-weight: normal;
+    }
+}
+/* Front Div end */
+
+.frontdev {
+    margin: 0 auto;
+    padding: 0px 40px
+}
+
+.front-two {
+    width: 100%;
+    padding: 30px 20px;
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    background-color: #C6DBB1;
+    border-radius: 30px;
+}
+
+
+/* Card Template */
+/* .content,
+.content-icon,
+.content-image,
+.content-font, */
+/* .content-cloud,
+.content-autho,
+.content-hosting, */
+.content-aitool {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.uni-btn {
+    padding: 8px 30px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.uni-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+
+    .frontdev {
+        margin: 0 auto;
+        padding: 0px 10px
+    }    
+    .front-two {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px 0px;
+        padding: 25px 12px;
+    }
+
+    /* .content,
+    .content-icon, */
+    /* .content-image, */
+    /* .content-font, */
+    /* .content-cloud,
+    .content-autho,
+    .content-hosting, */
+    .content-aitool {
+        /* margin: 0 auto; */
+        width: 100%;
+        max-width: none;
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .uni-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+
+
+    .frontdev {
+        margin: 0 auto;
+        padding: 0px 10px
+    }    
+
+    .front-two {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    /* .content,
+    .content-icon,
+    .content-image,
+    .content-font, */
+    /* .content-cloud,
+    .content-autho,
+    .content-hosting, */
+    .content-aitool {
+        width: 80%;
+        max-width: 290px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .uni-btn {
+        padding: 8px 25px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .front-two {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px 10px;
+    }
+
+    /* .content,
+    .content-icon,
+    .content-image,
+    .content-font, */
+    /* .content-cloud,
+    .content-autho,
+    .content-hosting, */
+    .content-aitool {
+        width: 350px;
+        max-width: 400px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .uni-btn {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+
+/* Large Screens (1300px and above) */
+@media (min-width: 1300px) {
+    .front-two {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
+        gap: 50px;
+        justify-items: center;
+    }
+
+    /* .content,
+    .content-icon,
+    .content-image,
+    .content-font, */
+    /* .content-cloud,
+    .content-autho,
+    .content-hosting, */
+    .content-aitool {
+        width: 350px;
+        max-width: 400px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .uni-btn {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+
+/* Section h1 */
+.section-h1 {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+/* End Section h1 */
+
+/* Front Icon Container */
+#front-icon,
+#content-container-icon {
+    /* background-color: #091057; */
+    /* background-color: #C9E9D2; */
+    background-color: #FF6500;
+}
+/* End Front Icon Container */
+
+/* Front Image Section */
+/* #front-image,
+#content-container-image {
+    background-color: #493628;
+} */
+/*  End Front Image Section */
+
+/* Front font section */
+/* #front-font,
+#content-container-font {
+    background-color: #87A2FF;
+} */
+/* End Front font section */
