@@ -41,6 +41,11 @@ span {
     text-decoration: overline 1.5px solid black;
 }
 
+.card {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 600px) {
     .everyh {
         font-size: 29px;
@@ -104,7 +109,8 @@ span {
 .content,
 .content-icon,
 .content-image,
-.content-font {
+.content-font,
+.content-cloud {
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;
@@ -163,7 +169,8 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    .content-cloud {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -201,7 +208,8 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    .content-cloud {
         width: 80%;
         max-width: 290px;
     }
@@ -230,7 +238,8 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    .content-cloud {
         width: 350px;
         max-width: 400px;
     }
