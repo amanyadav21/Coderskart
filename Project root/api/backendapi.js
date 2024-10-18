@@ -96,39 +96,45 @@ function fetchDataautho() {
 function fetchDatahosting() {
   return [
     { h: "Firebase",
-      imageUrl: "/Project root/Images/Backend/authentication/firebase.png", 
+      imageUrl: "/Project root/Images/Backend/hosting/firebase.png", 
       text: "Firebase, by Google, provides tools like databases and analytics to help developers build and grow web and mobile apps faster.", 
       url: "https://firebase.google.com/" 
     },
 
-    { h: "Autho",
-      imageUrl: "/Project root/Images/Backend/authentication/auth0.png", 
-      text: " Auth0 provides identity management services, enabling secure authentication and authorization for applications.", 
-      url: "https://auth0.com/" 
+    { h: "Docker",
+      imageUrl: "/Project root/Images/Backend/hosting/docker.png", 
+      text: " Docker provides a platform for developing, shipping, and running applications in containers, allowing for consistent environments across development and production..", 
+      url: "https://www.docker.com" 
     },
 
-    { h: "Passport",
-      imageUrl: "/Project root/Images/Backend/authentication/passport.png", 
-      text: "Passport is an authentication middleware for Node.js, providing support for multiple authentication strategies.", 
-      url: "https://www.passportjs.org/" 
+    { h: "Vercel",
+      imageUrl: "/Project root/Images/Backend/hosting/vercel.png", 
+      text: "Vercel is a cloud platform for frontend frameworks and static sites, offering fast and scalable hosting with a focus on developers.", 
+      url: "https://vercel.com" 
     },
 
-    { h: "Aws Congnito",
-      imageUrl: "/Project root/Images/Backend/authentication/aws-cognito.png", 
-      text: "AWS Cognito offers authentication, authorization, and user management for web and mobile applications.", 
-      url: "https://aws.amazon.com/cognito/" 
+    { h: "Netlify",
+      imageUrl: "/Project root/Images/Backend/hosting/netlify.png", 
+      text: "Netlify offers a cloud-based platform for automating modern web projects, enabling continuous deployment and hosting for static websites.", 
+      url: "https://www.netlify.com" 
     },
 
-    { h: "JWT Okta",
-      imageUrl: "/Project root/Images/Backend/authentication/jwt.png", 
-      text: "Okta provides identity solutions, including JWT (JSON Web Tokens) for secure user authentication and authorization.", 
-      url: "https://www.okta.com/" 
+    { h: "Render",
+      imageUrl: "/Project root/Images/Backend/hosting/render.png", 
+      text: " Render is a cloud platform offering services for web applications, static sites, databases, and more, designed to simplify deployment.", 
+      url: "https://render.com" 
     },
 
-    { h: "stytch",
-      imageUrl: "/Project root/Images/Backend/authentication/stytch.png", 
-      text: " Stytch is an authentication platform offering passwordless login options, making it easier for developers to integrate secure authentication.", 
-      url: "https://stytch.com/" 
+    { h: "Heroku",
+      imageUrl: "/Project root/Images/Backend/hosting/heroku (1).png", 
+      text: "Heroku is a cloud platform that enables developers to build, run, and deploy applications quickly and easily.", 
+      url: "https://www.heroku.com" 
+    },
+
+    { h: "Back4app",
+      imageUrl: "/Project root/Images/Backend/hosting/back4app.png", 
+      text: " Back4App provides a backend-as-a-service platform that simplifies app development with scalable serverless infrastructure.", 
+      url: "https://www.back4app.com" 
     }
   ];
 }
