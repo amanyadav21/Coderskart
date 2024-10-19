@@ -155,7 +155,7 @@ a {
         align-items: center;
         /* margin-top: 20px; */
         /* border-radius: 5px; */
-        /* border: 0.1px solid rgb(164, 164, 164); */
+        border: 0.1px solid rgb(164, 164, 164);
     }
 
     .nav-logo {
