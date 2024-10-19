@@ -29,12 +29,17 @@ span {
     padding: 0 100px;
 }
 
-.first-container {
+/* .first-container {
     background-image: url(/bgc.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+} */
+
+.first-container {
+    background: linear-gradient(to bottom, #2b1809, #000000);
 }
+
 
 .first-one {
     width: 100%;
