@@ -69,6 +69,7 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    /* background-color: red; */
     /* border-radius: 15px; */
 }
 
@@ -148,14 +149,13 @@ a {
 /* Mobile and tablet media queries */
 @media only screen and (max-width: 600px) {
     .header{
-        width: 95%;
-        /* background-color: red; */
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 20px;
-        border-radius: 5px;
-        border: 0.1px solid rgb(164, 164, 164);
+        /* margin-top: 20px; */
+        /* border-radius: 5px; */
+        /* border: 0.1px solid rgb(164, 164, 164); */
     }
 
     .nav-logo {
@@ -253,13 +253,13 @@ a {
 /* Mobile and tablet media queries */
 @media only screen and (max-width: 600px), only screen and (min-width: 601px) and (max-width: 1024px) {
     .header{
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 20px;
-        border-radius: 5px;
-        border: 0.1px solid rgb(164, 164, 164);
+        /* margin-top: 20px; */
+        /* border-radius: 5px; */
+        /* border: 0.1px solid rgb(164, 164, 164); */
     }
 
     .nav-logo {
