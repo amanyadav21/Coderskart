@@ -29,14 +29,15 @@ a {
 
 
 .nav-logo {
-    font-family: "Syne Mono", monospace;
-    font-size: 30px;
+    /* font-family: "Syne Mono", monospace; */
+    font-size: 28px;
     /* text-decoration: underline 1px solid red; */
     color: var(--font-color);
     /* background-color: blanchedalmond; */
     padding: 3px;
-    border: #00ed67 2px solid;
+    border: #00ed67 1px solid;
     border-radius: 2px;
+    /* text-decoration: overline 1px white; */
 }
 /* Styling header and navbar */
 .header {
@@ -47,7 +48,9 @@ a {
     /* border-bottom: 1.5px solid rgba(255, 255, 255, 0.5); */
     /* background-color: rgba(44, 43, 43, .8); */
     /* background-color: rgb(255, 255, 255); */
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    background: linear-gradient(to right, #000000, #000000); /* Dark gray to medium gray */
+
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -57,7 +60,7 @@ a {
     margin: 0 auto;
     /* margin-top: 20px; */
     /* border-radius: 5px; */
-    /* border: 0.1px solid rgb(164, 164, 164); */
+    border: 0.1px solid rgb(164, 164, 164);
 }
 
 .navbar {
@@ -156,6 +159,8 @@ a {
         /* margin-top: 20px; */
         /* border-radius: 5px; */
         border: 0.1px solid rgb(164, 164, 164);
+        background: linear-gradient(to right, #1c1c1c, #434343); /* Dark gray to medium gray */
+
     }
 
     .nav-logo {
