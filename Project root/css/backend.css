@@ -54,10 +54,12 @@ span {
 
 @media (max-width: 600px) {
     .everyh {
-        font-size: 29px;
+        font-size: 27px;
+        text-align: start;
         font-weight: 600;
     }
     .everyp {
+        text-align: start;
         font-weight: normal;
     }
     .h{
