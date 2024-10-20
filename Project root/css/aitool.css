@@ -114,6 +114,9 @@ span {
 .content-autho,
 .content-hosting, */
 .content-aitool {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     background-color: #fff;
     padding: 20px 20px;

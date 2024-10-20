@@ -105,11 +105,15 @@ span {
 .content-icon,
 .content-image,
 .content-font {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     background-color: #fff;
+
     padding: 20px 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     width: 350px;
     height: auto;
 }
@@ -122,12 +126,14 @@ img {
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
     color: #333;
     margin: 20px 0;
 }
 
 .uni-btn {
+    /* width: 150px;
+    margin: 0 auto; */
     padding: 8px 30px;
     font-size: 16px;
     background-color: black;
