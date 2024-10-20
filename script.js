@@ -32,3 +32,6 @@ window.onload = function() {
     btn.innerText = "Try Again";  
     explore.scrollIntoView({ behavior: "smooth" });
   });
+
+
+  

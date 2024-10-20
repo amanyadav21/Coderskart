@@ -184,11 +184,15 @@ span {
 .design,
 .noncoding,
 .aitool {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--font-color);
     width: 350px;
+    height: auto;
     padding: 10px 10px;
-    margin: 15px auto;
-    border-radius: 10px; /* Rounded corners */
+    /* margin: 15px auto; */
+    border-radius: 10px;
     text-align: start;
 }
 
@@ -200,7 +204,7 @@ span {
 }
 .second-one p {
     padding-top: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 
 .btn {
@@ -210,6 +214,7 @@ span {
     border-radius: 20px;
     border: 2px solid black;
     cursor: pointer;
+
 }
 
 .btn:hover {
