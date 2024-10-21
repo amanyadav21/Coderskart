@@ -297,15 +297,15 @@ footer {
     padding: 8px;
     width: 50px;
     /* height: 40px; */
-    /* border-radius: 8px;
-    border: white 1px solid; */
+    border-radius: 8px;
+    border: white 1px solid;
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .social-icons img:hover {
     border-radius: 8px;
-    border: white 1px solid;
+    /* border: white 1px solid; */
     background-color: white;
     transform: scale(1.1) rotate(5deg);
     transition: 0.3s all;
@@ -327,7 +327,12 @@ footer p:hover {
     transition: color 0.3s ease;
 }
 
-
-
-
 /* EndFooter section */
+
+@media (max-width: 600px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+}
