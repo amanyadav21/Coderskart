@@ -335,4 +335,15 @@ footer p:hover {
         flex-direction: column-reverse;
         gap: 10px;
     }
+
+    .social-icons a {
+        /* background-color: red; */
+        margin: 0 5px;
+    }
+    
+    .social-icons img {
+        padding: 7px;
+        width: 45px;
+    }
+    
 }
