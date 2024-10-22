@@ -113,10 +113,17 @@ span {
 
 
 /* Card Template */
+/* Frondend Section */
 .content,
 .content-icon,
 .content-image,
-.content-font {
+.content-font,
+/* Backend Section */
+.content-cloud,
+.content-autho,
+.content-hosting,
+/* AI Tool */
+.content-aitool {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -133,7 +140,13 @@ span {
 .content:hover,
 .content-icon:hover,
 .content-image:hover,
-.content-font:hover {
+.content-font:hover,
+/* Backend Section */
+.content-cloud:hover,
+.content-autho:hover,
+.content-hosting:hover,
+/* AI Tool */ 
+.content-aitool:hover{
     transition: 300ms all;
     transform: translateY(-4px);
     /* box-shadow: 7px 7px 0px rgb(209, 212, 133); */
@@ -192,7 +205,13 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    /* Backend Section */
+    .content-cloud,
+    .content-autho,
+    .content-hosting,
+    /* AI Tool */
+    .content-aitool {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -230,7 +249,13 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    /* Backend Section */
+    .content-cloud,
+    .content-autho,
+    .content-hosting,
+    /* AI Tool */
+    .content-aitool {
         width: 80%;
         max-width: 290px;
     }
@@ -259,7 +284,13 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    /* Backend Section */
+    .content-cloud,
+    .content-autho,
+    .content-hosting,
+    /* AI Tool */
+    .content-aitool {
         width: 350px;
         max-width: 400px;
     }
@@ -287,7 +318,13 @@ p {
     .content,
     .content-icon,
     .content-image,
-    .content-font {
+    .content-font,
+    /* Backend Section */
+    .content-cloud,
+    .content-autho,
+    .content-hosting,
+    /* AI Tool */
+    .content-aitool {
         width: 350px;
         max-width: 400px;
     }
