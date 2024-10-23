@@ -36,7 +36,7 @@ span {
 .everyp {
     font-size: 20px;
     color: #FF6500;
-    text-align: center;
+    text-align:start;
 }
 
 .h {
@@ -123,7 +123,9 @@ span {
 .content-autho,
 .content-hosting,
 /* AI Tool */
-.content-aitool {
+.content-aitool,
+/* Non Coding Tool */
+.content-website{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -146,7 +148,9 @@ span {
 .content-autho:hover,
 .content-hosting:hover,
 /* AI Tool */ 
-.content-aitool:hover{
+.content-aitool:hover,
+/* Non Coding Website */
+.content-website:hover{
     transition: 300ms all;
     transform: translateY(-4px);
     /* box-shadow: 7px 7px 0px rgb(209, 212, 133); */
@@ -211,7 +215,9 @@ p {
     .content-autho,
     .content-hosting,
     /* AI Tool */
-    .content-aitool {
+    .content-aitool,
+    /* Non Coding Website */
+    .content-website {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -255,7 +261,9 @@ p {
     .content-autho,
     .content-hosting,
     /* AI Tool */
-    .content-aitool {
+    .content-aitool,
+    /* Non Coding Website */
+    .content-website{
         width: 80%;
         max-width: 290px;
     }
@@ -290,7 +298,9 @@ p {
     .content-autho,
     .content-hosting,
     /* AI Tool */
-    .content-aitool {
+    .content-aitool,
+    /* Non Coding website */
+    .content-website{
         width: 350px;
         max-width: 400px;
     }
@@ -324,7 +334,9 @@ p {
     .content-autho,
     .content-hosting,
     /* AI Tool */
-    .content-aitool {
+    .content-aitool,
+    /* Non Coding Website */
+    .content-website{
         width: 350px;
         max-width: 400px;
     }
