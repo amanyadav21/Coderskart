@@ -126,7 +126,9 @@ span {
 .content-aitool,
 /* Non Coding Tool */
 .content-website,
-.content-mobile {
+.content-mobile,
+/* Desinger */
+.content-designtool {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -152,7 +154,9 @@ span {
 .content-aitool:hover,
 /* Non Coding Website */
 .content-website:hover
-.content-mobile:hover{
+.content-mobile:hover,
+/* Designer */
+.content-designtool:hover{
     transition: 300ms all;
     transform: translateY(-4px);
     /* box-shadow: 7px 7px 0px rgb(209, 212, 133); */
@@ -220,7 +224,9 @@ p {
     .content-aitool,
     /* Non Coding Website */
     .content-website,
-    .content-mobile {
+    .content-mobile,
+    /* Designer */
+    .content-designtool {
         /* margin: 0 auto; */
         width: 100%;
         max-width: none;
@@ -265,7 +271,9 @@ p {
     .content-aitool,
     /* Non Coding Website */
     .content-website,
-    .content-mobile {
+    .content-mobile,
+    /* Designer */
+    .content-designtool{
         width: 80%;
         max-width: 290px;
     }
@@ -303,7 +311,9 @@ p {
     .content-aitool,
     /* Non Coding website */
     .content-website,
-    .content-mobile{
+    .content-mobile,
+    /* Designer */
+    .content-designtool{
         width: 350px;
         max-width: 400px;
     }
@@ -340,7 +350,9 @@ p {
     .content-aitool,
     /* Non Coding Website */
     .content-website,
-    .content-mobile {
+    .content-mobile,
+    /* Designer */
+    .content-designtool{
         width: 350px;
         max-width: 400px;
     }
