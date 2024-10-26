@@ -1,34 +1,28 @@
 // Simulating an API call to fetch data cloud platform
 function fetchData() {
     return [
-      { h: "Webflow",
-        imageUrl: "/Project root/Images/Non Coding/Website/Webflow.jpg", 
-        text: "Webflow is more advanced than most drag-and-drop builders and is targeted at developers and designers who want more control over the design without diving into the code. It allows you to create responsive websites visually and export the clean HTML/CSS code if needed.", 
-        url: "https://www.webflow.com" 
+      { h: "Figma",
+        imageUrl: "/Project root/Images/design/design tool/Figma.jpg", 
+        text: " Figma is a collaborative, cloud-based design platform popular for UI/UX design and prototyping. Known for its real-time collaboration, Figma allows multiple designers to work simultaneously. Key features include vector editing, auto-layout for responsive design, interactive prototyping, and a vast plugin library", 
+        url: "https://www.figma.com" 
       },
   
-      { h: "Wix Studio",
-        imageUrl: "/Project root/Images/Non Coding/Website/WIx.jpg", 
-        text: "One of the most popular drag-and-drop website builders. Wix offers a wide range of customizable templates, a flexible drag-and-drop editor, and tons of built-in features, such as SEO tools, mobile optimization, and e-commerce solutions.", 
-        url: "https://www.wix.com/" 
+      { h: "Sketch",
+        imageUrl: "/Project root/Images/design/design tool/skatch.jpg", 
+        text: "Sketch is a vector-based design tool widely used for creating clean, high-quality UI and icon designs. It’s known for symbols, reusable components, and an intuitive interface. Sketch’s powerful plugin ecosystem and export options make it a top choice for design professionals seeking precision and flexibility..", 
+        url: "https://www.sketch.com/" 
       },
 
-      { h: "Elementor(WordPress)",
-        imageUrl: "/Project root/Images/Non Coding/Website/Elementor.jpg", 
-        text: "Elementor is one of the most powerful drag-and-drop page builders for WordPress. It allows you to create beautiful pages with a live preview and offers a wide range of design elements, templates, and integration options.", 
-        url: "https://www.elementor.com/" 
+      { h: "Adobe XD",
+        imageUrl: "/Project root/Images/design/design tool/adobe XD.jpg", 
+        text: "Adobe XD offers a seamless experience for UI/UX design with robust tools for wireframing, prototyping, and animation. Integrated with the Adobe Creative Cloud, XD allows designers to leverage other Adobe assets. Features include voice prototyping, repeat grid, and support for both vector and raster formats, making it ideal for creating dynamic user experiences.", 
+        url: "https://adobexdplatform.com/" 
       },
 
-      { h: "Carrd",
-        imageUrl: "/Project root/Images/Non Coding/Website/Carrd.jpg", 
-        text: "Carrd specializes in creating simple, responsive one-page websites. It's perfect for landing pages, portfolios, and personal websites, offering a straightforward drag-and-drop interface.", 
-        url: "https://www.carrd.co/" 
-      },
-
-      { h: "SquareSpace",
-        imageUrl: "/Project root/Images/Non Coding/Website/Squarespace.jpg", 
-        text: " Known for its sleek and professional design templates, Squarespace is great for creating visually stunning websites without any coding. It provides built-in tools for blogging, e-commerce, and marketing.", 
-        url: "https://www.squarespace.com/" 
+      { h: "Canva",
+        imageUrl: "/Project root/Images/design/design tool/Canva.jpg", 
+        text: "Canva is an accessible design tool for creating a wide range of visuals, from social media graphics to quick mockups. Its drag-and-drop editor and customizable templates make it beginner-friendly, while collaborative options and a vast library of icons, images, and fonts support a variety of design projects.", 
+        url: "https://www.canva.com/" 
       }
     ];
   }
