@@ -31,34 +31,22 @@ function fetchData() {
 // Simulating an API call to fetch data cloud platform
 function fetchshowcaseData() {
     return [
-      { h: "Flutter Flow",
-        imageUrl: "/Project root/Images/Non Coding/Mobile/Flutterflow.jpg", 
-        text: "FlutterFlow allows developers to build high-quality mobile applications using Google’s Flutter framework. It supports real-time previews, Firebase integration, and easy export of Flutter code.", 
-        url: "https://www.flutterflow.io/" 
+      { h: "Dribbble",
+        imageUrl: "/Project root/Images/design/showcase/dribble.jpg", 
+        text: "Dribbble is a community platform for designers to showcase their work, connect with other creatives, and find inspiration. It features a wide range of design projects, including UI/UX designs, illustrations, and branding work. Users can follow other designers, comment on work, and participate in design challenges, making it a vibrant hub for design enthusiasts.", 
+        url: "https://dribbble.com/" 
       },
   
-      { h: "AppSheet",
-        imageUrl: "/Project root/Images/Non Coding/Mobile/AppSheet.jpg", 
-        text: "AppSheet, now part of Google Cloud, is a powerful platform for building mobile and web apps based on data sources like Google Sheets or Excel. It's perfect for businesses looking to automate workflows.", 
-        url: "https://www.appsheet.com/" 
+      { h: "Behance",
+        imageUrl: "/Project root/Images/design/showcase/behance.jpg", 
+        text: "Behance is an online platform for creative professionals to showcase their portfolios across various fields, including graphic design, photography, illustration, and motion graphics. It allows users to discover and appreciate creative work from around the world, making it a powerful tool for networking and collaboration. Behance also integrates with Adobe Creative Cloud, facilitating easy uploads from Adobe software.", 
+        url: "https://www.behance.net/" 
       },
 
-      { h: "Bubble",
-        imageUrl: "/Project root/Images/Non Coding/Mobile/Bubble.jpg", 
-        text: "Bubble is a robust no-code platform that allows users to build complex web applications and mobile apps using a drag-and-drop editor. It’s ideal for building both web apps and mobile-friendly applications.", 
-        url: "https://www.bubble.io/" 
-      },
-
-      { h: "Thinkable",
-        imageUrl: "/Project root/Images/Non Coding/Mobile/Thinkable.jpg", 
-        text: "Thunkable is a no-code mobile app builder that supports native mobile app development for both iOS and Android. It has an intuitive drag-and-drop interface and offers a wide range of features, including third-party integrations.", 
-        url: "https://www.thunkable.com/" 
-      },
-
-      { h: "Adolo",
-        imageUrl: "/Project root/Images/Non Coding/Mobile/Adolo.jpg", 
-        text: "Adalo is a no-code platform that enables users to build fully functional mobile and web applications using a drag-and-drop interface. You can create native apps for both iOS and Android.", 
-        url: "https://www.adalo.com/" 
+      { h: "Awwwards",
+        imageUrl: "/Project root/Images/design/showcase/awwards.jpg", 
+        text: " Awwwards is an award-winning platform that recognizes and promotes the best web design and development projects globally. It features a curated collection of websites judged by a panel of industry experts based on design, creativity, and innovation. Awwwards serves as both inspiration and a benchmark for web designers and developers looking to create exceptional online experiences.", 
+        url: "https://www.awwwards.com/" 
       }
     ];
   }
