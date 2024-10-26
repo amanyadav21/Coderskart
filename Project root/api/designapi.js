@@ -29,7 +29,7 @@ function fetchData() {
 
 
 // Simulating an API call to fetch data cloud platform
-function fetchMobileData() {
+function fetchshowcaseData() {
     return [
       { h: "Flutter Flow",
         imageUrl: "/Project root/Images/Non Coding/Mobile/Flutterflow.jpg", 

@@ -1,4 +1,4 @@
-//////////////////////////////////////////////Start Website Section//////////////////////////////////////////////////////////
+//////////////////////////////////////////////Start Tools and software Section//////////////////////////////////////////////////////////
 
 // Function to clone and populate the template
 function populateTemplate(data) {
@@ -30,14 +30,14 @@ function populateTemplate(data) {
     populateTemplate(data);
   });
   
-  //////////////////////////////////////////////End Website Section//////////////////////////////////////////////////////////
+  //////////////////////////////////////////////End Tools and software Section//////////////////////////////////////////////////////////
 
-  //////////////////////////////////////////////Start Mobile Section//////////////////////////////////////////////////////////
+  //////////////////////////////////////////////Start Showcase & inspiration Section//////////////////////////////////////////////////////////
 
 // Function to clone and populate the template for mobile apps
-function populateMobileTemplate(data) {
-  const template = document.getElementById('card-template-mobile'); // Mobile template ID
-  const container = document.getElementById('content-container-mobile'); // Mobile container ID
+function populateshowcaseTemplate(data) {
+  const template = document.getElementById('card-template-showcase'); // Mobile template ID
+  const container = document.getElementById('content-container-showcase'); // Mobile container ID
 
   data.forEach(item => {
     const clone = template.content.cloneNode(true);
@@ -60,8 +60,8 @@ function populateMobileTemplate(data) {
 
 // Fetch the data and populate the template for mobile apps
 document.addEventListener('DOMContentLoaded', () => {
-  const mobileData = fetchMobileData();  // Fetching data for mobile tools
-  populateMobileTemplate(mobileData);
+  const showcaseData = fetchshowcaseData();  // Fetching data for mobile tools
+  populateshowcaseTemplate(showcaseData);
 });
 
-//////////////////////////////////////////////End Mobile Section//////////////////////////////////////////////////////////
+//////////////////////////////////////////////End Showcase & inspiration Section//////////////////////////////////////////////////////////
