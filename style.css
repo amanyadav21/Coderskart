@@ -65,9 +65,9 @@ span {
 }
 
 .first-one video {
-    width: 80%;
-    border: 0.5px solid white;
-    border-radius: 10px;
+    width: 115%;
+    /* border: 0.5px solid white; */
+    border-radius: 30px;
     margin: 30px 0px;
 }
 
@@ -77,7 +77,7 @@ span {
     padding: 5px 30px;
     text-align: center;
     /* margin-left: 46%; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     border: 2px solid white;
 }
 #btn:hover{
@@ -111,6 +111,12 @@ span {
         font-size: 20px;
         font-weight: 500;
     }
+
+    .first-one video {
+        width: 100%;
+        border: 0.5px solid white;
+        border-radius: 20px;
+    }
     
     #btn {
         font-size: 20px;
@@ -137,6 +143,12 @@ span {
         text-align: start;
         font-size: 22px;
     }
+
+    .first-one video {
+        width: 100%;
+        /* border: 0.5px solid white; */
+        border-radius: 20px;
+    }
     #btn {
         font-size: 22px;
         margin-left: 2%;
@@ -161,6 +173,13 @@ span {
         text-align: start;
         font-size: 24px;
         font-weight: 500;
+    }
+
+    .first-one video {
+        width: 115%;
+        /* border: 0.5px solid white; */
+        border-radius: 30px;
+        margin: 30px 0px;
     }
     #btn {
         font-size: 24px; 
