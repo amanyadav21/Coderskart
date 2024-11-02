@@ -227,13 +227,14 @@ span {
 }
 
 .second-one h1 {
+    padding-bottom: 10px;
     font-size: 35px;
     font-weight: 600;
     text-decoration:underline 3px;
     
 }
 .second-one p {
-    padding-top: 80px;
+    padding-top: 30px;
     margin-bottom: 9px;
 }
 
@@ -376,4 +377,13 @@ footer p:hover {
         width: 45px;
     }
     
+}
+
+
+.middle-icon {
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
