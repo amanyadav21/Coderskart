@@ -279,7 +279,8 @@ span {
     .noncoding,
     .aitool {
         /* width: 250px; */
-        width: 290px;
+        width: 270px;
+        /* width: 290px; */
         /* padding: 10px; */
     }
 }
