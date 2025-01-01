@@ -32,8 +32,4 @@ Coders Kart is designed for developers and creators of all skill levels. Explore
 
 ### 🛠️ No Coding Skills? No Problem!  
 - Beginner-friendly tools for non-coders.  
-- Drag-and-drop interfaces, website builders, and low-code/no-code solutions to bring your ideas to life effortlessly.  
-
----
-
-Feel free to customize or let me know if you'd like further edits!
+- Drag-and-drop interfaces, website builders, and low-code/no-code solutions to bring your ideas to life effortlessly.
