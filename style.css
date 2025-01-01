@@ -10,10 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 span {
-    /* color: #0d7706e3; */
     color: #ef6007e3;
-    /* text-decoration: underline 3px solid rgb(247, 28, 240); */
-    /* font-style: italic; */
     font-weight: 500;
     /* font-family: "Syne Mono", monospace; */
 }
@@ -89,7 +86,8 @@ span {
 /* Media Queries for Responsiveness */
 
 /* Extra Small Devices (Phones, 600px and below) */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) { */
+@media (max-width: 480px) {
 
     .first-container {
         margin: 0 auto;
@@ -125,7 +123,8 @@ span {
 }
 
 /* Small Devices (Tablets, 600px to 900px) */
-@media (min-width: 601px) and (max-width: 900px) {
+/* @media (min-width: 601px) and (max-width: 900px) { */
+@media (min-width: 480px) and (max-width: 767px) {
 
     .first-container {
         margin: 0 auto;
@@ -155,7 +154,8 @@ span {
     }
 }
 /* Medium Devices (Laptops, 900px to 1200px) */
-@media (min-width: 901px) and (max-width: 1200px) {
+/* @media (min-width: 901px) and (max-width: 1200px) { */
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .first-container {
         margin: 0 auto;
@@ -254,7 +254,9 @@ span {
     transition: 0.5s all;
 }
 
-@media (max-width: 600px) {
+/* Upgrade 600 to 480px */
+/* @media (max-width: 600px) { */
+@media (max-width: 480px) {
     .second-one {
         width: 100%;
         /* height: auto; */
@@ -267,7 +269,9 @@ span {
     }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+/* Upgrade 480 to 601 and  ---- 481 to 767 */
+/* @media (min-width: 601px) and (max-width: 900px) { */
+@media (min-width: 481px) and (max-width: 767px) {
     .second-one {
         width: 100%;
         height: auto;
@@ -279,7 +283,10 @@ span {
         justify-items: center;
     }
 }
-@media (min-width: 901px) and (max-width: 1200px) {
+
+/* upgrade 768 to ------ 768 from 1024 */
+/* @media (min-width: 901px) and (max-width: 1200px) { */
+@media (min-width: 768px) and (max-width: 1024px) {
     .second-one {
         width: 100%;
         display: grid;
