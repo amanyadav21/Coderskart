@@ -257,6 +257,15 @@ span {
     .second-one {
         grid-template-columns: repeat(1, 1fr);
     }
+    .frontend,
+    .backend,
+    .design,
+    .noncoding,
+    .aitool {
+        /* width: 250px; */
+        width: 330px;
+        /* padding: 10px; */
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
