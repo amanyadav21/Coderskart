@@ -232,6 +232,7 @@ p {
     .content-showcase {
         /* margin: 0 auto; */
         width: 100%;
+        /* width: 300px; */
         max-width: none;
         padding: 20px;
     }
@@ -262,6 +263,9 @@ p {
         gap: 30px; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        padding: 20px;
+        gap: 30px;
     }
 
     .content,
@@ -280,7 +284,9 @@ p {
     /* Designer */
     .content-designtool,
     .content-showcase{
-        width: 80%;
+        /* width: 80%; */
+        width: 95%;
+        /* max-width: 290px; */
         max-width: 290px;
     }
 
