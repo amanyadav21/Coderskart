@@ -218,7 +218,8 @@ span {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--font-color);
-    width: 250px;
+    /* width: 250px; */
+    width: 300px;
     padding: 10px;
     border-radius: 10px;
     text-align: start;
@@ -272,11 +273,29 @@ span {
     .second-one {
         grid-template-columns: repeat(2, 1fr);
     }
+    .frontend,
+    .backend,
+    .design,
+    .noncoding,
+    .aitool {
+        /* width: 250px; */
+        width: 290px;
+        /* padding: 10px; */
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .second-one {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .frontend,
+    .backend,
+    .design,
+    .noncoding,
+    .aitool {
+        /* width: 250px; */
+        width: 320px;
+        /* padding: 10px; */
     }
 }
 
