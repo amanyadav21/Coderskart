@@ -29,6 +29,7 @@ a {
 
 
 .nav-logo {
+
     /* font-family: "Syne Mono", monospace; */
     font-size: 28px;
     /* text-decoration: underline 1px solid red; */
@@ -60,19 +61,22 @@ a {
     margin: 0 auto;
     /* margin-top: 20px; */
     /* border-radius: 5px; */
-    border: 0.1px solid rgb(164, 164, 164);
+    /* border: 1px solid rgb(164, 164, 164); */
+    border-bottom: solid rgb(92, 92, 92) 1px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    /* padding: 11px 50px; */
+    padding: 11px 30px;
     /* width: 95%; */
     width: 100%;
     height: auto;
     margin: 0 auto;
-    /* background-color: red; */
+    /* background-color: rgb(78, 48, 247); */
+    /* border-radius: 50px; */
     /* border-radius: 15px; */
 }
 
@@ -103,41 +107,45 @@ a {
 }
 
 .nav-link {
+    font-family: "Space Grotesk", serif;
     position: relative;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 400;
-    padding: 5px 010px;
+    padding: 5px 11px;
     border-radius: 5px ;
-    /* color: #fff; */
     color: #ffa560;
     /* text-decoration: underline 1.5px; */
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+.nav-link {
+    position: relative;
+    display: inline-block;
+}
+
 .nav-link::after {
-    content: "";
+    content: '';
     position: absolute;
-    left: 0;
-    bottom: 0;
     width: 0;
-    height: 2px;
-    background-color: #ffffff;
-    transition: width 0.3s ease;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.4s ease-out;
+    margin: 0 auto;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
 
 .nav-link:hover {
     transition: 400ms all;
     color: white;
-
-    /* color: #ffffff; */
-    /* color: #000000; */
-    /* color: #000000; */
-    /* background-color: white; */
-    /* background-color: rgb(179, 255, 0); */
 }
 
 .nav-link:hover::after {
-    background-color: rgb(229, 254, 83);
+    background-color: rgb(255, 255, 255);
     /* width: 100%; */
 }
 
@@ -145,8 +153,6 @@ a {
     display: none;
     width: 25%;
     height: auto;
-    /* display: block; */
-
 }
 
 /* Mobile and tablet media queries */

@@ -29,7 +29,6 @@ window.onload = function() {
   let explore = document.querySelector("#Explore");
   
   btn.addEventListener("click", function() {
-    btn.innerText = "Try Again";  
     explore.scrollIntoView({ behavior: "smooth" });
   });
 
