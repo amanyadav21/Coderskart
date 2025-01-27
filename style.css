@@ -313,7 +313,7 @@ span {
 footer {
     background-color: rgb(87, 87, 87);
     color: #ffffff;
-    padding: 15px 0;
+    padding: 5px 0px;
     text-align: center;
     position: relative;
     bottom: 0;
@@ -340,7 +340,7 @@ footer {
 
 .social-icons img {
     padding: 8px;
-    width: 50px;
+    width: 42px;
     border-radius: 8px;
     border: 1px solid white;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -353,10 +353,10 @@ footer {
 }
 
 footer p {
-    font-size: 25px;
+    font-family: "Space Grotesk", serif;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
-    text-decoration: underline 1.5px solid wheat;
     color: #f1f1f1;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
