@@ -28,22 +28,24 @@ span {
 
 /* Front Div start */
 .everyh {
-    /* margin-top: 50px; */
-    padding-top: 100px;
-    font-size: 65px;
-    font-weight: 500;
+    padding-top: 50px;
+    font-size: 55px;
+    font-weight: 100;
     color: white;
     text-align: center;
+    font-family: "Space Grotesk", serif;
 }
 
-.everyp {
+/* .everyp {
     font-size: 20px;
     color: #FF6500;
     text-align:start;
-}
+} */
 
 .h {
-    color: #ed5f00;
+    font-family: "Space Grotesk", serif;
+    /* color: #ed5f00; */
+    color: #000000;
     font-size: 25px;
     font-weight: 400;
     text-align: start;
@@ -177,9 +179,11 @@ img {
 }
 
 p {
+    font-family: "Space Grotesk", serif;
     font-size: 17px;
     color: #333;
     margin: 20px 0;
+    text-align: start;
 }
 
 .uni-btn {
@@ -387,13 +391,14 @@ p {
 
 /* Section h1 */
 .section-h1 {
-    color: white;
+    font-family: "Space Grotesk", serif;
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 100;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 10px;
-    text-decoration: underline 2px solid;
+    text-align: center;
 }
 
 /* End Section h1 */
