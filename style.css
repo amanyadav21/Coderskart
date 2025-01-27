@@ -204,7 +204,8 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--font-color);
+    /* background-color: var(--font-color); */
+    background-color: #9e60fc;
     /* width: 250px; */
     width: 300px;
     padding: 10px;
@@ -212,31 +213,52 @@ span {
     text-align: start;
 }
 
+.frontend:hover,
+.backend:hover,
+.design:hover,
+.noncoding:hover,
+.aitool:hover {
+    transform: translateY(-10px);
+    scroll-behavior: smooth;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .second-one h1 {
+    font-family: "Space Grotesk", serif;
     padding-bottom: 10px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
-    text-decoration: underline 3px;
+    text-align: center;
+    /* text-decoration: underline 2px rebeccapurple; */
 }
 
 .second-one p {
+    font-family: "Space Grotesk", serif;
     padding-top: 30px;
     margin-bottom: 9px;
+    color: rgb(255, 255, 255);
 }
 
-.btn {
+.page-btn {
+    font-family: "Space Grotesk", serif;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     font-size: 22px;
     color: black;
-    padding: 2px 15px;
+    padding: 2px 13px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 1px solid black;
     cursor: pointer;
 }
 
-.btn:hover {
+.page-btn:hover {
     background-color: black;
     color: white;
-    transition: 0.5s all;
+    transition: 0.3s all;
 }
 
 /* Responsive Design */
