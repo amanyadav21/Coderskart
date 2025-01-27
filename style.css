@@ -43,18 +43,20 @@ span {
     padding: 100px;
 }
 .first-one h1 {
+    font-family: "Space Grotesk", serif;
     /* color: black; */
     color: white;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 600;
     text-align: center;
 }
 .first-one p {
+    font-family: "Space Grotesk", serif;
     color: wheat;
-    padding: 0 100px;
+    padding: 0 120px;
     margin-top: 50px;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 
