@@ -42,14 +42,15 @@ span {
     width: 100%;
     padding: 100px;
 }
+
 .first-one h1 {
     font-family: "Space Grotesk", serif;
-    /* color: black; */
     color: white;
     font-size: 75px;
     font-weight: 600;
     text-align: center;
 }
+
 .first-one p {
     font-family: "Space Grotesk", serif;
     color: wheat;
@@ -58,7 +59,6 @@ span {
     text-align: center;
     font-size: 18px;
 }
-
 
 #btn {
     font-family: "Space Grotesk", serif;
@@ -70,6 +70,7 @@ span {
     border: none;
     border-radius: 1px;
 }
+
 #btn:hover{
     cursor: pointer;
     border-radius: 30px;
@@ -90,13 +91,13 @@ span {
         padding: 100px 0px;
     }
     .first-one h1 {
-        font-size: 43px;
+        font-size: 35px;
         text-align: start;
     }
     .first-one p {
         padding: 0 10px;
         text-align: start;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
     }
 
