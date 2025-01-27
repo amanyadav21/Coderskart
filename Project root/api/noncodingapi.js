@@ -3,7 +3,7 @@ function fetchData() {
     return [
       { h: "Webflow",
         imageUrl: "/Project root/Images/Non Coding/Website/Webflow.jpg", 
-        text: "Webflow is more advanced than most drag-and-drop builders and is targeted at developers and designers who want more control over the design without diving into the code. It allows you to create responsive websites visually and export the clean HTML/CSS code if needed.", 
+        text: "Webflow is a cloud-based platform that allows users to design and build websites without writing code. It's a Software as a Service (SaaS) application that includes a content management system (CMS) and hosting.", 
         url: "https://www.webflow.com" 
       },
   

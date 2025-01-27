@@ -3,7 +3,7 @@ function fetchData() {
     return [
       { h: "Chatgpt",
         imageUrl: "/Project root/Images/aitool/chatpgt.png", 
-        text: "Ideal for solving coding problems, learning new programming concepts, generating quick code examples, and automating simple tasks like generating documentation or writing test cases.", 
+        text: "ChatGPT is an AI assistant that aids in coding by generating snippets, explaining concepts, debugging, suggesting approaches, and acting as a real-time tutor.", 
         url: "https://openai.com/chatgpt" 
       },
   
