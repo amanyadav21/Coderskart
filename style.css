@@ -62,13 +62,13 @@ span {
 
 #btn {
     font-family: "Space Grotesk", serif;
-    /* background-color: var(--font-color); */
+    background-color: var(--font-color);
     font-size: 24px;
     padding: 4px 25px;
     text-align: center;
     margin-top: 30px;;
     border: none;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 
 #btn:hover{
@@ -214,6 +214,21 @@ span {
     padding: 10px;
     border-radius: 10px;
     text-align: start;
+}
+
+.frontend {
+    background: #3F7D58;
+}
+.backend {
+    background-color: #EF9651;
+}
+.aitool {
+    background-color: #7D0A0A;
+    color: white;
+}
+.noncoding {
+    background-color: #211C84;
+    color: white;
 }
 
 .frontend:hover,
